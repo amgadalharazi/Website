@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featuristic Header</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <!-- Logo -->
+                <a href="#" class="logo">
+                    <i class="fas fa-cube"></i>
+                    <span>Brand</span>
+                </a>
+
+                <!-- Menu Toggle Button -->
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <!-- Navigation Menu -->
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#services" class="nav-link">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#service1">Service One</a></li>
+                            <li><a href="#service2">Service Two</a></li>
+                            <li><a href="#service3">Service Three</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- CTA Button -->
+                <a href="#" class="cta-button">Get Started</a>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-input">
+                <i class="fas fa-search"></i>
+            </div>
+        </nav>
+    </header>
+
+    <script src="header.js"></script>
+</body>
+</html>
